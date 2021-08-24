@@ -4,6 +4,7 @@ import 'rxjs/add/operator/map';
 import { Album } from './album';
 import { Observable } from 'rxjs/Observable';
 import { Product } from './product';
+import { a } from '@angular/core/src/render3';
 
 @Injectable()
 export class ProductService {
